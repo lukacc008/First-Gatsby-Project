@@ -12,6 +12,6 @@ export default function Home() {
           <p>UX designer & web developer based in Manchester.</p>
         </div>
       </section>
-    </Layout>
+    </Layout> 
   )
 }
