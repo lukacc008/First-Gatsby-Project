@@ -5,6 +5,8 @@ import "../styles/home.css"
 
 export default function Home({ data }) {
   console.log(data)
+  const { title, description } = data.site.siteMetadata
+
   return (
     <Layout>
       <section className="header">
@@ -17,6 +19,7 @@ export default function Home({ data }) {
           </Link>
         </div>
         <img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} />
+        <p>{ title } - { description }</p>
       </section>
     </Layout>
   )
