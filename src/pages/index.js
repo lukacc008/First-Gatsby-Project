@@ -24,14 +24,3 @@ export default function Home({ data }) {
     </Layout>
   )
 }
-
-export const query = graphql`
-  query MyQuery {
-    site {
-      siteMetadata {
-        description
-        title
-      }
-    }
-  }
-`
