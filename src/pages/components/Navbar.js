@@ -11,7 +11,7 @@ export default function Navbar() {
       }
     }
   `)
-
+ 
   const { title } = data.site.siteMetadata
 
   return (
