@@ -23,4 +23,4 @@ export default function Home({ data }) {
       </section>
     </Layout>
   )
-}
+} 
